@@ -11,8 +11,8 @@ var novoSalarioInflacao = novoSalario - (novoSalario * inflacao);
 //parseFloat(novoSalario);
 //parseFloat(novoSalarioinflacao);
 
-console.log('novo salario = ' novoSalario );
-console.log('novo salario com inflacao = ' novoSalarioInflacao);
+console.log('novo salario = ' + novoSalario );
+console.log('novo salario com inflacao = ' + novoSalarioInflacao + "\n");
 
 var strnovoSalario = `O novo salário é : \n R$\t ${novoSalario} `;
 var strnovoSalarioInflacao = `O novo salário aplicado inflação é : \n R$\t ${novoSalarioInflacao} `;
