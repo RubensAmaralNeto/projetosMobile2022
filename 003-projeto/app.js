@@ -15,7 +15,7 @@ console.log('novo salario = ' + novoSalario );
 console.log('novo salario com inflacao = ' + novoSalarioInflacao + "\n");
 
 var strnovoSalario = `O novo salário é : \n R$\t ${novoSalario} `;
-var strnovoSalarioInflacao = `O novo salário aplicado inflação é : \n R$\t ${novoSalarioInflacao} `;
+var strnovoSalarioInflacao = `O novo salário aplicado inflação é : \n R$\t ${novoSalarioInflacao} ` + "\n";
 
 console.log( strnovoSalario );
 console.log( strnovoSalarioInflacao );
